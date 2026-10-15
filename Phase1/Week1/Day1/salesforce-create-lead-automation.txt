@@ -1,0 +1,30 @@
+Create automation script for Salesforce Create Lead functionality
+
+Instruction    :
+[STRICT] - Use Selenium Java with TestNG and Page Object Model
+[MANDATORY] - Add TestNG pre-condition and post-condition using annotations
+[MANDATORY] - Automate the positive flow by filling all mandatory fields and clicking Create Lead
+[MANDATORY] - Verify that the created lead is displayed in the View Lead page
+[MANDATORY] - Verify the success toast message shown at the top after lead creation
+
+Context        :
+There are 7 input fields in the Salesforce Create Lead page. First Name, Last Name, and Company Name are mandatory fields. There is a Create Lead button. Once the lead is created, it should be displayed in the View Lead page. A toast message is shown at the top after the lead is created successfully.
+
+Example        :
+Use separate page classes for the Create Lead page and View Lead page.
+The test class should call methods only from the page classes.
+Use clear method names such as enterFirstName, enterLastName, enterCompanyName, clickCreateLead, getSuccessToastMessage, and getCreatedLeadName.
+
+Persona        :
+Act as a senior automation engineer with experience in Salesforce test automation.
+
+Output Format  :
+Give the Maven project structure first.
+Keep locators and reusable actions in page classes.
+Keep the TestNG test flow in a test class.
+Use Page Object Model format.
+Add proper comments in the code.
+
+Tone           :
+Use technical coding standards. Keep the code clean, readable, and easy to maintain.
+
